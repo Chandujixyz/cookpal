@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ 
+ 
+</head>
+<body>
+     <nav>
+        <img src="./image/Cookpal 1.png" alt="">
+        <div id="home">
+          <div>
+            <button>Home</button>
+            <button>Explore</button>
+            <button>Help</button>
+          </div>
+            <img src="./image/Ellipse 2.svg" alt="">
+        </div>
+     </nav>
+
+     <!-- first section -->
+
+     <section id="container">
+        <img src="./image/Rectangle 20 (1).png" alt="">
+     <div class="cont"><h3>Trending now</h3>
+        <p>Mike’s famous salad <br>
+        with cheese</p>
+        <h4>By John Mike</h4></div>
+     </section>
+
+     <!-- Search portion -->
+
+     <section id="search">
+        <h1>Search For Recipes</h1>
+        <div class="searchIcon">
+            <div class="cool">
+                <img src="./image/search 1.svg" alt="" >
+                <input type="text" placeholder="Search for recipes..." id="search">
+            </div>
+            <div class="ba">  <img src="./image/li_search.svg" alt=""></div>
+          
+        </div>
+     </section>
+
+     <!-- different options -->
+     <section class="option">
+        
+         <div id="filter-btn">
+
+             <button class="o" id="showAll">  All Recipes   <img src="./image/chevron.svg" alt=""> </button>
+             <button class="g" id="showveg">  veg Recipes only  <img src="./image/chevron.svg" alt=""> </button>
+             <button class="r" id="shownonveg">  Non veg Recipes   <img src="./image/chevron.svg" alt=""> </button>
+
+         </div>  
+
+
+ <div id="filters">
+    <div id="option">
+
+    <h3>Filters</h3>
+    <p>Rating</p>
+        <div id="rating">
+               <div>
+                   <input type="radio" name="rating" id="ratingB">
+                   <label for="ratingB">4 And Above</label>
+               </div>
+               <div>
+                   <input type="radio" name="rating" id="ratingA">
+                   <label for="ratingA">Below 4</label>
+               </div>    
+        </div>
+     </div>
+
+     <div id="card-container"></div>
+         
+ <script src="./script.js"></script>
+
+ 
+     </section>
+</body>
+</html>
